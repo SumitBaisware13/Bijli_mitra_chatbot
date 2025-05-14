@@ -66,9 +66,9 @@ model, index, df = load_model_index_data()
 # ---------------- Chat History ----------------
 
 if "chat_history" not in st.session_state:
-    st.session_state.chat_history = [("bot", "👋 Namaste! Bijli Mitra here. Kuch bhi puchhiye related to bill, meter, connection, etc.")]
+    st.session_state.chat_history = [("bot", "👋 Namaste! Bijli Mitra here. Asked me any thing ")]
 
-user_input = st.chat_input("Apna sawaal yahan likhiye...")
+user_input = st.chat_input("Write Your Quetion Here....")
 
 # ---------------- Typing Animation ----------------
 def simulate_typing_response(text):
